@@ -149,7 +149,7 @@ export function useAsyncData<
   if (!nuxt._asyncData[key] || !options.immediate) {
     nuxt.payload._errors[key] ??= null
 
-    const _ref = options.deep !== true ? shallowRef : ref
+    const _ref = options.deep === false ? shallowRef : ref
 
     nuxt._asyncData[key] = {
       data: _ref(getCachedData() ?? options.default!()),
