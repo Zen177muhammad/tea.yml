@@ -1,4 +1,4 @@
-# https://tea.xyz/what-is-this-file
+# https://tea.xyz/my-projects/efd56a21-48e2-4a3b-a593-2668d4b120cd
 ---
 version: 1.0.0
 codeOwners:
